@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pokemon_i" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#elegirPokemon" onMouseEntered="#onMouseEnteredMostrarHistoria" onMouseExited="#onMouseExitedLimpiar" prefHeight="70.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.pokemon.controller.PokemonController">
+   <children>
+      <HBox layoutY="2.0" prefHeight="64.0" prefWidth="128.0">
+         <children>
+            <HBox prefHeight="71.0" prefWidth="18.0" />
+            <ImageView fx:id="fotitoPokemon" fitHeight="65.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <HBox layoutX="130.0" prefHeight="75.0" prefWidth="336.0">
+         <children>
+            <VBox prefHeight="104.0" prefWidth="167.0">
+               <children>
+                  <Label fx:id="nombrePokemon" prefHeight="35.0" prefWidth="52.0" text="Nombre" />
+                  <HBox fx:id="estados" prefHeight="22.0" prefWidth="141.0" />
+                  <HBox>
+                     <children>
+                        <Label prefHeight="32.0" prefWidth="22.0" text="Nv" />
+                        <Label fx:id="nivelPokemon" prefHeight="31.0" prefWidth="47.0" text="Nivel" textAlignment="RIGHT" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Pane>
+               <children>
+                  <Pane layoutX="-46.0" layoutY="14.0" prefHeight="30.0" prefWidth="221.0" style="-fx-background-color: #808080">
+                     <children>
+                        <ProgressBar fx:id="barraVidaPokemon" blendMode="SRC_ATOP" cache="true" cacheHint="QUALITY" layoutX="37.0" layoutY="4.0" prefHeight="20.0" prefWidth="176.0" progress="0.54" stylesheets="@../CSS/ColoresBarraVida.css">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </ProgressBar>
+                        <Label layoutX="6.0" layoutY="-1.0" prefHeight="31.0" prefWidth="31.0" text="PS" textAlignment="JUSTIFY" textFill="#cfe812">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label fx:id="vidaPokemon" layoutX="11.0" layoutY="21.0" prefHeight="65.0" prefWidth="164.0" text="VIDA / VIDA MAXIMA" textAlignment="RIGHT" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</AnchorPane>

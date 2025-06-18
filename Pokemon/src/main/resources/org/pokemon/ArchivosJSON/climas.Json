@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Soleado",
+    "tiposFavorecidos": ["fuego"],
+    "lastima": false
+  },
+  {
+    "nombre": "Lluvia",
+    "tiposFavorecidos": ["agua", "planta"],
+    "lastima": false
+  },
+  {
+    "nombre": "Tormenta de arena",
+    "tiposFavorecidos": ["tierra", "roca"],
+    "lastima": true
+  },
+  {
+    "nombre": "Niebla",
+    "tiposFavorecidos": ["fantasma", "psiquico"],
+    "lastima": false
+  },
+  {
+    "nombre": "Tormenta de rayos",
+    "tiposFavorecidos": ["electrico"],
+    "lastima": true
+  },
+  {
+    "nombre": "Huracán",
+    "tiposFavorecidos": ["volador"],
+    "lastima": true
+  },
+  {
+    "nombre": "Tormenta de fuego",
+    "tiposFavorecidos": ["fuego"],
+    "lastima": true
+  }
+]

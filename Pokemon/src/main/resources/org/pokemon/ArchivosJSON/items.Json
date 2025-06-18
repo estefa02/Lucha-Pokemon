@@ -1,0 +1,54 @@
+[
+  {
+    "nombre": "POCIóN DE ESTADO",
+    "id": 0,
+    "usos": 1,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "normal",
+    "historia": "Cura a tu pokemon de todos los estados!"
+  },
+  {
+    "nombre": "POCIóN DE REVIVIR",
+    "id": 1,
+    "usos": 1,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "normal",
+    "historia": "Revive a tu pokemon debilitado!"
+  },
+  {
+    "nombre": "POCIóN DE VIDA",
+    "id": 2,
+    "usos": 1,
+    "tipoDeAccion": "estadistica",
+    "estadisticaDestino": "vida",
+    "poder": 20,
+    "historia": "Aumenta la vida de tu pokemon!!!"
+  },
+  {
+    "nombre": "POCIóN DE ATAQUE",
+    "id": 3,
+    "usos": 1,
+    "tipoDeAccion": "estadistica",
+    "estadisticaDestino": "ataque",
+    "poder": 20,
+    "historia": "Aumenta el ataque de tu pokemon!!!"
+  },
+  {
+    "nombre": "POCIóN DE VELOCIDAD",
+    "id": 4,
+    "usos": 1,
+    "tipoDeAccion": "estadistica",
+    "estadisticaDestino": "velocidad",
+    "poder": 20,
+    "historia": "Aumenta la velocidad de tu pokemon!!!"
+  },
+  {
+    "nombre": "POCIóN DE DEFENSA",
+    "id": 5,
+    "usos": 1,
+    "tipoDeAccion": "estadistica",
+    "estadisticaDestino": "defensa",
+    "poder": 20,
+    "historia": "Aumenta la defensa de tu pokemon!!!"
+  }
+]

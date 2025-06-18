@@ -1,0 +1,422 @@
+[
+  {
+    "nombre": "IMPACT TRUENO",
+    "id": 1,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 20,
+    "tipoHabilidad": "electrico"
+  },
+  {
+    "nombre": "DOBLE PATADA",
+    "id": 2,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "ATAQUE RáPIDO",
+    "id": 3,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 10,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "PODER SOLAR",
+    "id": 4,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 20,
+    "tipoHabilidad": "fuego"
+  },
+  {
+    "nombre": "MORDIDA",
+    "id": 5,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "GARFIO",
+    "id": 6,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 10,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "INFERNO",
+    "id": 7,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 25,
+    "tipoHabilidad": "fuego"
+  },
+  {
+    "nombre": "ESPESURA",
+    "id": 8,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 20,
+    "tipoHabilidad": "planta"
+  },
+  {
+    "nombre": "ENREDADURA VEGETAL",
+    "id": 9,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "planta"
+  },
+  {
+    "nombre": "LANZALLAMAS",
+    "id": 10,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 25,
+    "tipoHabilidad": "fuego"
+  },
+  {
+    "nombre": "HIPERRAYO",
+    "id": 11,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 30,
+    "tipoHabilidad": "electrico"
+  },
+  {
+    "nombre": "AGUILA CARGADA",
+    "id": 12,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 25,
+    "tipoHabilidad": "volador"
+  },
+  {
+    "nombre": "MORDISCO",
+    "id": 13,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "RAYO PSIQUICO",
+    "id": 14,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 40,
+    "tipoHabilidad": "psiquico"
+  },
+  {
+    "nombre": "REFLEJO",
+    "id": 15,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "ATAQUE ARENA",
+    "id": 16,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "tierra"
+  },
+  {
+    "nombre": "PLACAJE",
+    "id": 17,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "CORTE",
+    "id": 18,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "GOLPE TIERRA",
+    "id": 19,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 20,
+    "tipoHabilidad": "tierra"
+  },
+  {
+    "nombre": "ROCA AFILO",
+    "id": 20,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "roca"
+  },
+  {
+    "nombre": "GOLPE BAJO",
+    "id": 21,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "lucha"
+  },
+  {
+    "nombre": "DEMOLICIóN",
+    "id": 22,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 20,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "ATAQUE AéREO",
+    "id": 23,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "volador"
+  },
+  {
+    "nombre": "PICO TALADRO",
+    "id": 24,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 13,
+    "tipoHabilidad": "volador"
+  },
+  {
+    "nombre": "ONDA íGNEA",
+    "id": 25,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 20,
+    "tipoHabilidad": "fuego"
+  },
+  {
+    "nombre": "LANZAR ROCAS",
+    "id": 26,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "roca"
+  },
+  {
+    "nombre": "EXPLOSIóN",
+    "id": 27,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 30,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "HIDROBOMBA",
+    "id": 28,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 25,
+    "tipoHabilidad": "agua"
+  },
+  {
+    "nombre": "PULSO DRAGON",
+    "id": 29,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 10,
+    "tipoHabilidad": "dragon"
+  },
+  {
+    "nombre": "GOLPE KARATE",
+    "id": 30,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 15,
+    "tipoHabilidad": "pelea"
+  },
+  {
+    "nombre": "DOBLE BOFETADA",
+    "id": 31,
+    "usos": 15,
+    "tipoDeAccion": "ataque",
+    "poder": 10,
+    "tipoHabilidad": "normal"
+  },
+  {
+    "nombre": "PARARRAYOS",
+    "id": 32,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": 15,
+    "estadisticaDestino": "ataque"
+  },
+  {
+    "nombre": "AGILIDAD",
+    "id": 33,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": 20,
+    "estadisticaDestino": "velocidad"
+  },
+  {
+    "nombre": "MAR LLAMAS",
+    "id": 34,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": -15,
+    "estadisticaDestino": "ataque"
+  },
+  {
+    "nombre": "QUEMADURA",
+    "id": 35,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": -15,
+    "estadisticaDestino": "velocidad"
+  },
+  {
+    "nombre": "CLOROFILA",
+    "id": 36,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": 20,
+    "estadisticaDestino": "defensa"
+  },
+  {
+    "nombre": "LLUVIA CURATIVA",
+    "id": 37,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": 10,
+    "estadisticaDestino": "vida"
+  },
+  {
+    "nombre": "TORRENTE",
+    "id": 38,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": -10,
+    "estadisticaDestino": "ataque"
+  },
+  {
+    "nombre": "ESCUDO",
+    "id": 39,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": 20,
+    "estadisticaDestino": "defensa"
+  },
+  {
+    "nombre": "FUERZA PUÑO",
+    "id": 40,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": 15,
+    "estadisticaDestino": "ataque"
+  },
+  {
+    "nombre": "LEVITACIóN",
+    "id": 41,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": 20,
+    "estadisticaDestino": "velocidad"
+  },
+  {
+    "nombre": "ROCA FIRME",
+    "id": 42,
+    "usos": 15,
+    "tipoDeAccion": "estadistica",
+    "poder": 10,
+    "estadisticaDestino": "defensa"
+  },
+  {
+    "nombre": "VENENO",
+    "id": 43,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "envenenado"
+  },
+  {
+    "nombre": "ONDA VOLTIO",
+    "id": 44,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "paralizado"
+  },
+  {
+    "nombre": "DESCARGA ELéCTRICA",
+    "id": 45,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "paralizado"
+  },
+  {
+    "nombre": "ESPORA",
+    "id": 46,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "envenenado"
+  },
+  {
+    "nombre": "HIDROCEFALIA",
+    "id": 47,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "dormido"
+  },
+  {
+    "nombre": "REPOSO",
+    "id": 48,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "dormido"
+  },
+  {
+    "nombre": "PARALIZACIóN",
+    "id": 49,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "paralizado"
+  },
+  {
+    "nombre": "MALDICIóN",
+    "id": 50,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "envenenado"
+  },
+  {
+    "nombre": "CONFUSIóN",
+    "id": 51,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "confuso"
+  },
+  {
+    "nombre": "MAREO",
+    "id": 52,
+    "usos": 15,
+    "tipoDeAccion": "estado",
+    "estadoNuevo": "confuso"
+  },
+  {
+    "nombre": "SOLEADO",
+    "id": 53,
+    "usos": 15,
+    "tipoDeAccion": "clima",
+    "clima": "Soleado"
+  },
+  {
+    "nombre": "LLUVIA",
+    "id": 53,
+    "usos": 15,
+    "tipoDeAccion": "clima",
+    "clima": "Lluvia"
+  }
+]

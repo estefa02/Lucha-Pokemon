@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pokemon_i" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="175.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.pokemon.controller.PokemonController">
+    <children>
+      <Pane layoutX="3.0" layoutY="239.0" prefHeight="31.0" prefWidth="169.0" style="-fx-background-color: #808080;">
+         <children>
+              <ProgressBar fx:id="barraVidaPokemon" layoutX="29.0" layoutY="4.0" prefHeight="20.0" prefWidth="132.0" progress="0.46" stylesheets="@../CSS/ColoresBarraVida.css" />
+              <Label layoutX="5.0" layoutY="4.0" text="PS" textFill="#dfeb04">
+                  <effect>
+                      <SepiaTone />
+                  </effect>
+                  <font>
+                      <Font name="Monospaced Regular" size="15.0" />
+                  </font>
+              </Label>
+         </children>
+      </Pane>
+        <Label fx:id="vidaPokemon" layoutX="65.0" layoutY="276.0" prefHeight="26.0" prefWidth="107.0" text="0/ 0" textAlignment="JUSTIFY">
+            <font>
+                <Font name="Montserrat Medium" size="13.0" />
+            </font>
+        </Label>
+        <Label fx:id="nivelPokemon" layoutX="109.0" layoutY="197.0" prefHeight="31.0" prefWidth="65.0" text="Nivel">
+            <font>
+                <Font name="Monospaced Regular" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="nombrePokemon" layoutX="65.0" layoutY="136.0" prefHeight="31.0" prefWidth="107.0" text="Nombre">
+            <font>
+                <Font name="Monospaced Regular" size="15.0" />
+            </font>
+        </Label>
+        <Pane layoutY="2.0" prefHeight="31.0" prefWidth="29.0" />
+        <Pane layoutX="-9.0" layoutY="-2.0" prefHeight="70.0" prefWidth="76.0">
+         <children>
+                <ImageView fitHeight="31.0" fitWidth="26.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/pokeball.png" />
+               </image></ImageView>
+         </children>
+        </Pane>
+          <ImageView fx:id="fotitoPokemon" fitHeight="70.0" fitWidth="65.0" layoutX="4.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="46.0" layoutY="-2.0" prefHeight="58.0" prefWidth="146.0" text="Pokemon actual">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="203.0" text="Nv">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Label>
+      <HBox fx:id="estados" layoutX="4.0" layoutY="302.0" prefHeight="31.0" prefWidth="169.0" />
+    </children>
+</AnchorPane>

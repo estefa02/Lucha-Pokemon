@@ -1,0 +1,67 @@
+[ {
+  "nombre" : "Fede",
+  "ganador" : true,
+  "items" : {
+    "1" : 1,
+    "4" : 1
+  },
+  "pokemons" : [ {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 45.0,
+    "Id" : 1
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 35.0,
+    "Id" : 2
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 40.0,
+    "Id" : 6
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 30.0,
+    "Id" : 7
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 45.0,
+    "Id" : 8
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 5.8331372549019616,
+    "Id" : 9
+  } ]
+}, {
+  "nombre" : "Mati",
+  "ganador" : false,
+  "items" : {
+    "0" : 0,
+    "1" : 1,
+    "2" : 0,
+    "4" : 1
+  },
+  "pokemons" : [ {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 35.0,
+    "Id" : 2
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 39.0,
+    "Id" : 3
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 44.0,
+    "Id" : 4
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 62.513882352941174,
+    "Id" : 5
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 25.0,
+    "Id" : 9
+  }, {
+    "estado" : [ "NORMAL" ],
+    "vidaRestante" : 40.0,
+    "Id" : 10
+  } ]
+} ]

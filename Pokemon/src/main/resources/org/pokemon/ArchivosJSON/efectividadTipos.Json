@@ -1,0 +1,92 @@
+[
+  {
+    "tipo": "agua",
+    "fuerteContra": ["fuego","roca","tierra"],
+    "debilContra": ["agua","dragon","planta"],
+    "nuloContra": []
+  },
+  {
+    "tipo": "bicho",
+    "fuerteContra": ["planta","roca","tierra"],
+    "debilContra": ["fantasma","fuego","lucha","volador"],
+    "nuloContra": []
+  },
+  {
+    "tipo": "dragon",
+    "fuerteContra": ["dragon"],
+    "debilContra": [],
+    "nuloContra": []
+  },
+  {
+    "tipo": "electrico",
+    "fuerteContra": ["agua","volador"],
+    "debilContra": ["dragon","electrico","planta"],
+    "nuloContra": ["tierra"]
+  },
+  {
+    "tipo": "fantasma",
+    "fuerteContra": ["fantasma"],
+    "debilContra": [],
+    "nuloContra": ["normal","roca"]
+  },
+  {
+    "tipo": "fuego",
+    "fuerteContra": ["bicho","hielo","planta"],
+    "debilContra": ["agua","dragon","fuego","roca"],
+    "nuloContra": []
+  },
+  {
+    "tipo": "hielo",
+    "fuerteContra": ["dragon","planta","tierra","volador"],
+    "debilContra": ["agua","hielo"],
+    "nuloContra": []
+  },
+  {
+    "tipo": "lucha",
+    "fuerteContra": ["hielo","normal","roca"],
+    "debilContra": ["bicho","psiquico","veneno","volador"],
+    "nuloContra": ["fantasma"]
+  },
+  {
+    "tipo": "normal",
+    "fuerteContra": [],
+    "debilContra": ["roca"],
+    "nuloContra": ["fantasma"]
+  },
+  {
+    "tipo": "planta",
+    "fuerteContra": ["agua","roca","tierra"],
+    "debilContra": ["bicho","dragon","fuego","planta","veneno","volador"],
+    "nuloContra": []
+  },
+  {
+    "tipo": "psiquico",
+    "fuerteContra": ["lucha","veneno"],
+    "debilContra": ["psiquico"],
+    "nuloContra": []
+  },
+  {
+    "tipo": "roca",
+    "fuerteContra": ["dragon","fuego","hielo","volador"],
+    "debilContra": ["lucha","tierra"],
+    "nuloContra": []
+  },
+  {
+    "tipo": "tierra",
+    "fuerteContra": ["electrico","fuego","roca","veneno"],
+    "debilContra": ["bicho","planta"],
+    "nuloContra": ["volador"]
+  },
+  {
+    "tipo": "veneno",
+    "fuerteContra": ["bicho","planta"],
+    "debilContra": ["fantasma","roca","tierra","veneno"],
+    "nuloContra": []
+  },
+  {
+    "tipo": "volador",
+    "fuerteContra": ["bicho","lucha","planta"],
+    "debilContra": ["electrico","roca"],
+    "nuloContra": []
+  }
+]

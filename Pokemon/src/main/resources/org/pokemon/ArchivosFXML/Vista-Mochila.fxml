@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #5F9EA0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.pokemon.controller.MochilaController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="500.0" prefWidth="700.0">
+               <children>
+                  <VBox prefHeight="287.0" prefWidth="183.0">
+                     <children>
+                        <Pane prefHeight="399.0" prefWidth="183.0" style="-fx-background-color: #E0FFFF;">
+                           <children>
+                              <ImageView fitHeight="239.0" fitWidth="182.0" layoutX="1.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Imagenes/moch_preview_rev_1.png" />
+                                 </image>
+                              </ImageView>
+                              <AnchorPane layoutX="8.0" layoutY="14.0" prefHeight="49.0" prefWidth="183.0" style="-fx-background-color: #4169E1;">
+                                 <children>
+                                    <Ellipse fill="#243979" layoutX="91.0" layoutY="35.0" radiusX="91.0" radiusY="4.0" stroke="#2a4490" strokeType="INSIDE" />
+                                    <Text fill="#fffefe" layoutX="17.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ITEMS" textAlignment="CENTER" wrappingWidth="147.13671875">
+                                       <font>
+                                          <Font name="Cantarell Regular" size="30.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <Pane prefHeight="400.0" prefWidth="520.0" style="-fx-background-color: #7B68EE;">
+                     <children>
+                        <ScrollPane layoutX="10.0" layoutY="9.0" prefHeight="383.0" prefWidth="503.0" style="-fx-background-color: #FFE4B5;" stylesheets="@../CSS/ScrollBar.css">
+                           <content>
+                              <VBox fx:id="items" prefWidth="385.0" style="-fx-background-color: #FFE4B5FF;" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+            <HBox prefHeight="200.0" prefWidth="700.0">
+               <children>
+                  <Pane prefHeight="100.0" prefWidth="124.0">
+                     <children>
+                        <Pane layoutY="7.0" prefHeight="87.0" prefWidth="125.0" style="-fx-background-color: #5F9EA0;">
+                           <children>
+                              <Button accessibleRole="IMAGE_VIEW" mnemonicParsing="false" style="-fx-background-color: transparent;" />
+                              <ImageView fitHeight="41.0" fitWidth="119.0" layoutY="24.0" onMouseClicked="#volver" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Imagenes/botonVolver.png" />
+                                 </image>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="100.0" prefWidth="579.0" style="-fx-background-color: #4169E1;">
+                     <children>
+                        <Label fx:id="infoPoty" layoutX="34.0" layoutY="10.0" prefHeight="80.0" prefWidth="420.0" text="" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="pocion" fitHeight="100.0" fitWidth="94.0" layoutX="463.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

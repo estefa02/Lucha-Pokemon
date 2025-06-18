@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.Cursor?>
+
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml" alignment="center"
+           fx:controller="org.pokemon.controller.InicioController" fx:id="root">
+    <children>
+        <MediaView fx:id="mediaView" />
+        <ImageView fx:id="imageView" onMouseClicked="#avanzar">
+            <image>
+                <Image url="@../Imagenes/pokemon_logo.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+    </children>
+</StackPane>
