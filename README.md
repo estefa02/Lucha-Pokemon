@@ -4,9 +4,6 @@ Este proyecto consiste en la implementación de una versión simplificada del ju
 
 El objetivo principal es aplicar conceptos de diseño orientado a objetos, programación modular, testeo automatizado y uso de herramientas modernas de construcción y gestión de proyectos Java.
 
-## 📸 Diagrama UML
-![Diagrama UML](Diagrama_UML_Pokemon.png)
-
 ## 🛠️ Tecnologías y Herramientas
 
 - Java 8+
@@ -44,6 +41,7 @@ El código fuente se encuentra en el directorio `src/main/java`, estructurado en
 
 ## 👨‍💻 Autor
 
-Trabajo realizado como parte del curso **Algoritmos y Programación III**.  
+Trabajo realizado por Estefano Polizzi, Santiago Trezeguet y Joaquin Batemarco como parte del curso **Algoritmos y Programación III**.
+  
 Repositorio adaptado para uso profesional y demostración.
 
